@@ -3,22 +3,6 @@
 </p>
 ---
 </div>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>7OOP Repository - Purple Theme</title>
-  <style>
-    /* 🎨 Theme Colors */
-    :root {
-      --bg-color: #f8f5fc;       /* light lavender background */
-      --accent: #8a2be2;         /* purple accent */
-      --text-color: #2d033b;     /* dark purple text */
-      --card-bg: #ffffff;        /* card background */
-    }
-
     
   </style>
 </head>
