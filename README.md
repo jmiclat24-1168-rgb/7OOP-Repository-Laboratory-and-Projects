@@ -1,3 +1,9 @@
+<div class="image-container" style="text-align:center;">
+    <img src="Images/Messenger_creation_7E5C84B3-75A1-489D-89EF-6172897F9922.jpeg"
+         alt="Centered 2x2 Image"
+         style="width:300px; border-radius:15px;">
+</div>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,60 +19,11 @@
       --card-bg: #ffffff;        /* card background */
     }
 
-    body {
-      font-family: Arial, sans-serif;
-      background: var(--bg-color);
-      color: var(--text-color);
-      margin: 0;
-      padding: 20px;
-    }
-
-    h1, h2, h3, h4 {
-      color: var(--accent);
-    }
-
-    /* Center Image */
-    .image-container {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .image-container img {
-      width: 2in;
-      height: 2in;
-      border-radius: 12px;
-      border: 3px solid var(--accent);
-      box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
-    }
-
-    /* Card Style for Sections */
-    .section {
-      background: var(--card-bg);
-      padding: 15px;
-      margin: 15px auto;
-      border-radius: 12px;
-      max-width: 800px;
-      box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
-    }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
+    
   </style>
 </head>
 <body>
 html_content = """
-<div class="image-container" style="text-align:center;">
-    <img src="Images/Messenger_creation_7E5C84B3-75A1-489D-89EF-6172897F9922.jpeg"
-         alt="Centered 2x2 Image"
-         style="width:300px; border-radius:15px;">
-</div>
 """
 
 with open("display_image.html", "w") as f:
