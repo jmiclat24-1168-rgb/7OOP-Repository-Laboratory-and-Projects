@@ -2,19 +2,6 @@
   <img src="Images/Messenger_creation_7E5C84B3-75A1-489D-89EF-6172897F9922.jpeg" width="200" height="200">
 </p>
 ---
-</div>
-    
-  </style>
-</head>
-<body>
-html_content = """
-"""
-
-with open("display_image.html", "w") as f:
-    f.write(html_content)
-
-print("✅ HTML file created — open 'display_image.html' in your browser to view the photo.")
-  
   <div class="section">
     <h1>7OOP-Repository-Laboratory-and-Projects</h1>
     <p>My repository, a collection of my all activities and projects in 7OOP using Python language. All my activities and projects are stored here and you can all see here. I created this repository to collect all of my activities, putting everything together to see and review what I've done.</p>
