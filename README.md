@@ -50,7 +50,7 @@ print("✅ HTML file created — open 'display_image.html' in your browser to vi
 
   <div class="section">
     <h2>D. PROJECT LINKS</h2>
-    <p>Coming soon...</p>
+    <p>Midterms Lab task1: https://sg.docworkspace.com/d/sIMi0kZjfAcSS4ccG?sa=601.1074 </p>
   </div>
 
   <div class="section">
