@@ -1,7 +1,9 @@
+<p align="center">
 <div class="image-container" style="text-align:center;">
-    <img src="Images/Messenger_creation_7E5C84B3-75A1-489D-89EF-6172897F9922.jpeg"
-         alt="Centered 2x2 Image"
-         style="width:300px; border-radius:15px;">
+    <img src="Images/Messenger_creation_7E5C84B3-75A1-489D-89EF-6172897F9922.jpeg" width="200" height="200">
+</p>
+
+---
 </div>
 
 <!DOCTYPE html>
