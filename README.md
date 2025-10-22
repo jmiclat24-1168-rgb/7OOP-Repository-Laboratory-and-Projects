@@ -61,12 +61,19 @@
   </style>
 </head>
 <body>
+html_content = """
+<div class="image-container" style="text-align:center;">
+    <img src="https://raw.githubusercontent.com/jmiclat24-1168-rgb/7OOP-Repository-Laboratory-and-Projects/d62becdc82f2b499582850bb7dafcb393e43b026/Images/IMG20231212105232.jpg"
+         alt="Centered 2x2 Image"
+         style="width:300px; border-radius:15px;">
+</div>
+"""
 
-  <div class="image-container">
-    <img src="https://raw.githubusercontent.com/jmiclat24-1168-rgb/7OOP-Repository-Laboratory-and-Projects/d62becdc82f2b499582850bb7dafcb393e43b026/Images/IMG20231212105232.jpg" 
-         alt="Centered 2x2 Image">
-  </div>
+with open("display_image.html", "w") as f:
+    f.write(html_content)
 
+print("✅ HTML file created — open 'display_image.html' in your browser to view the photo.")
+  
   <div class="section">
     <h1>7OOP-Repository-Laboratory-and-Projects</h1>
     <p>My repository, a collection of my all activities and projects in 7OOP using Python language. All my activities and projects are stored here and you can all see here. I created this repository to collect all of my activities, putting everything together to see and review what I've done.</p>
