@@ -63,7 +63,7 @@
 <body>
 html_content = """
 <div class="image-container" style="text-align:center;">
-    <img src="https://raw.githubusercontent.com/jmiclat24-1168-rgb/7OOP-Repository-Laboratory-and-Projects/d62becdc82f2b499582850bb7dafcb393e43b026/Images/IMG20231212105232.jpg"
+    <img src="Images/Messenger_creation_7E5C84B3-75A1-489D-89EF-6172897F9922.jpeg"
          alt="Centered 2x2 Image"
          style="width:300px; border-radius:15px;">
 </div>
