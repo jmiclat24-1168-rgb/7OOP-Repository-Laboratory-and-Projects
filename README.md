@@ -19,7 +19,9 @@
 
   <div class="section">
     <h2>C. 🌸AREA OF INTEREST🌸</h2>
-    <p>C language and Java language</p>
+    <p>C language</p>
+    <p>Java language<p>
+    <p>Phython<p>
   </div>
 
   <div class="section">
