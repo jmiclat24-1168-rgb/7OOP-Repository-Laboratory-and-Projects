@@ -18,6 +18,19 @@
   </div>
 
   <div class="section">
+  <h2> 💘💞What I Believe In 💞💘 </h2>
+  <p>  "I believe in God as the center of my life."  </p>
+  <p>  "What goes around comes around."  </p>
+  <p>  "Be kind to yourself"  </p>
+
+  <div class="section">
+  <h2>  EDUCATION  </h2>
+  <p> Epza Resettlement Elementary School  </p>
+  <p> Bonifacio V. Romero HighSchool  </p>
+  <p> Bonifacio V. Romero SeniorHighschool  </p>
+  <p> City College of Angeles  </p>
+
+  <div class="section">
     <h2>C. 🌸AREA OF INTEREST🌸</h2>
     <p>C language</p>
     <p>Java language<p>
