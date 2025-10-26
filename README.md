@@ -55,10 +55,10 @@
   <div class="section">
     <h2>F. 📞CONTACTS📞</h2>
     <p>📞: 09074899200 <p>
-    <p> Gmail: joanamiclat2@gmail.com <p>
-    <p>Facebook: <a href="https://www.facebook.com/share/15LnUMWCtB/">My Facebook</a></p>
-    <p>Instagram:   https://www.instagram.com/ikrjnn.x?igsh=ZjF1dTBuenFrbGhh </p>
-    <p>Telegram: 09061994006 </p>
+    <p> [Gmail:] (joanamiclat2@gmail.com) <p>
+    <p>[Facebook:] <a (href="https://www.facebook.com/share/15LnUMWCtB/")>My Facebook</a></p>
+    <p>[Instagram:]   https://www.instagram.com/ikrjnn.x?igsh=ZjF1dTBuenFrbGhh </p>
+    <p>[Telegram:] 09061994006 </p>
   </div>
 
 </body>
