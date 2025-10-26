@@ -1,4 +1,4 @@
-style.css
+
 /* 🌸 Lavender Theme for Minimal Theme */
 
 /* Page background */
@@ -53,3 +53,8 @@ img {
 h2::before {
   content: "💜 ";
 }
+---
+layout: default
+---
+
+<link rel="stylesheet" href="assets/css/style.css">
