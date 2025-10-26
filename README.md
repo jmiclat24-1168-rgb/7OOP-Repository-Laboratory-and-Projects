@@ -32,7 +32,7 @@
 
   <div class="section">
     <h2>C. 🌸AREA OF INTEREST🌸</h2>
-    <img src="https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/PATH/5acc4388-3e37-478c-a630-bed31430a506.jpeg" alt="Banner" style="max-width:50%;height:auto;">
+    <img src="https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/PATH/5acc4388-3e37-478c-a630-bed31430a506.jpeg" alt="Banner" style="max-width:100%;height:auto;">
     <p>Java language<p>
     <p>Phython</p>
 
