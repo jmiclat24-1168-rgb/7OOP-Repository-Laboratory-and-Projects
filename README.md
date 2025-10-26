@@ -38,7 +38,7 @@
 
   <div class="section">
     <h2>D. 📚PROJECT LINKS📚</h2>
-   </p> [Miterms Paired Task1:](https://sg.docworkspace.com/d/sIBC0kZjfAcqX4ccpG?sa=601.1074)</p>
+  Miterms Paired Task1:](https://sg.docworkspace.com/d/sIBC0kZjfAcqX4ccpG?sa=601.1074)
     </p> Midterms Lab Task1:https://sg.docworkspace.com/d/sIMi0kZjfAcSS4ccG?sa=601.10 </p>
     </p> Midterms Lab Task2:https://sg.docworkspace.com/d/sIAa0kZjfAcqU4ccG?sa=601.1074 </p>
     </p>Midterms Lab Task3:https://sg.docworkspace.com/d/sIDC0kZjfAeqY4ccG?sa=601.1074 </p>
