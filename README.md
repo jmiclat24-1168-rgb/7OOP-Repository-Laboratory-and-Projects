@@ -32,7 +32,7 @@
 
   <div class="section">
     <h2>C. 🌸AREA OF INTEREST🌸</h2>
-    <p> ![My Image](Images/5acc4388-3e37-478c-a630-bed31430a506.jpeg) <p/>
+    <p![My Image](Images/5acc4388-3e37-478c-a630-bed31430a506.jpeg) <p/>
     <p>Java language<p>
     <p>Phython</p>
 
