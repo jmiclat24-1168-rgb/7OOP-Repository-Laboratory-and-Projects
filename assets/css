@@ -1,1 +1,55 @@
 style.css
+/* 🌸 Lavender Theme for Minimal Theme */
+
+/* Page background */
+body {
+  background-color: #f4e6f8; /* light lavender */
+  color: #2f2f3a;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  margin: 40px;
+}
+
+/* Content box */
+.wrapper {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border: 2px solid #d5b8e6;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #7d4fa3;
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: #a46fd6;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  color: #7d4fa3;
+  text-decoration: underline;
+}
+
+/* Horizontal line */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, #d5b8e6, #c49ad9);
+  margin: 20px 0;
+}
+
+/* Profile image styling */
+img {
+  border-radius: 12px;
+  border: 3px solid #d5b8e6;
+}
+
+/* Section titles with icons */
+h2::before {
+  content: "💜 ";
+}
