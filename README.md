@@ -32,7 +32,7 @@
 
   <div class="section">
     <h2>C. 🌸AREA OF INTEREST🌸</h2>
-    <p>C language</p>
+    <img> src= "5acc4388-3e37-478c-a630-bed31430a506.jpeg"
     <p>Java language<p>
     <p>Phython<p>
   </div>
