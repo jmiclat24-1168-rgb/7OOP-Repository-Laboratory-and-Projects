@@ -32,9 +32,10 @@
 
   <div class="section">
     <h2>C. 🌸AREA OF INTEREST🌸</h2>
-    <p>C Language<p/>
-    <p>Java language<p>
-    <p>Phython</p>
+    <p>🎬Watching K-drama🎬<p/>
+    <p>💃Dancing💃<p>
+    <p>🏸Badminton🏸</p>
+    <p>🏋️Workout🏋️</p>
 
   <div class="section">
     <h2>D. 📚PROJECT LINKS📚</h2>
