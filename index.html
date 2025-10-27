@@ -3,147 +3,159 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🦋🪻Joana Marie Miclat | 7OOP Laboratory Projects🪻🦋</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>🌌 Joana Marie Miclat | 7OOP Laboratory Projects 🌌</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
 
   <style>
-    /* 🌸 General Page Styling */
+    /* 🌌 Base Theme — Galaxy Lavender */
     body {
-      background-color: #f3e8ff; /* soft lavender */
-      font-family: 'Roboto', sans-serif;
-      color: #5e2a84;
       margin: 0;
-      padding: 0;
-      line-height: 1.6;
+      font-family: 'Poppins', sans-serif;
+      color: #e9d8fd;
+      background: radial-gradient(circle at 20% 30%, #4b0082, #2e0854, #000);
+      overflow-x: hidden;
+      position: relative;
+      min-height: 100vh;
     }
 
+    /* ✨ Twinkling Stars Background */
+    body::before, body::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: transparent url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+      opacity: 0.2;
+      z-index: 0;
+      animation: twinkle 20s linear infinite;
+    }
+
+    body::after {
+      opacity: 0.3;
+      animation-duration: 40s;
+      animation-direction: reverse;
+    }
+
+    @keyframes twinkle {
+      from { background-position: 0 0; }
+      to { background-position: 1000px 1000px; }
+    }
+
+    /* 🪞 Container */
     .container {
+      position: relative;
+      z-index: 1;
       max-width: 900px;
-      margin: 40px auto;
-      padding: 20px;
+      margin: 60px auto;
+      padding: 25px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      border-radius: 25px;
+      box-shadow: 0 0 30px rgba(186, 85, 211, 0.3);
     }
 
     header {
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
 
     h1 {
-      color: #6a0dad;
       font-size: 2em;
+      color: #d8b4fe;
+      text-shadow: 0 0 15px #b57edc;
     }
 
     h2 {
-      color: #7b2cbf;
-      border-bottom: 2px solid #b57edc;
+      color: #e0b0ff;
+      text-shadow: 0 0 10px #bf7fff;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
       padding-bottom: 5px;
       text-align: center;
     }
 
     h3 {
-      color: #8a2be2;
+      color: #d0a2ff;
       text-align: center;
     }
 
     .subtitle {
+      color: #cbb2ff;
       font-style: italic;
-      color: #7a3db8;
     }
 
-    /* 🌼 Section Cards */
-    section {
-      background-color: white;
-      border-radius: 20px;
-      box-shadow: 0 4px 15px rgba(128, 0, 128, 0.1);
-      padding: 20px;
-      margin-bottom: 25px;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    section:hover {
-      transform: scale(1.01);
-      box-shadow: 0 6px 20px rgba(128, 0, 128, 0.2);
-    }
-
-    /* 🌸 Profile Section */
+    /* 🌠 Profile Section */
     .profile {
       text-align: center;
       position: relative;
-      padding: 40px 0;
+      padding: 50px 0;
     }
 
-    /* ✨ Magical Halo with Color Shift */
+    /* 🌌 Glowing Halo Behind Photo */
     .profile::before {
       content: "";
       position: absolute;
       top: 50%;
       left: 50%;
-      width: 260px;
-      height: 260px;
-      background: radial-gradient(circle, rgba(197,150,255,0.7), rgba(243,232,255,0));
+      width: 300px;
+      height: 300px;
       border-radius: 50%;
       transform: translate(-50%, -50%);
+      background: radial-gradient(circle, rgba(180,120,255,0.5), rgba(255,255,255,0));
+      filter: blur(25px);
+      animation: auraShift 6s ease-in-out infinite alternate;
       z-index: 0;
-      filter: blur(12px);
-      animation: haloColorShift 6s ease-in-out infinite alternate;
     }
 
-    @keyframes haloColorShift {
-      0% { background: radial-gradient(circle, rgba(197,150,255,0.8), rgba(243,232,255,0)); }
-      33% { background: radial-gradient(circle, rgba(255,160,200,0.8), rgba(243,232,255,0)); }
-      66% { background: radial-gradient(circle, rgba(180,120,255,0.8), rgba(243,232,255,0)); }
-      100% { background: radial-gradient(circle, rgba(197,150,255,0.8), rgba(243,232,255,0)); }
+    @keyframes auraShift {
+      0% { background: radial-gradient(circle, rgba(180,120,255,0.6), rgba(255,255,255,0)); }
+      50% { background: radial-gradient(circle, rgba(255,150,220,0.6), rgba(255,255,255,0)); }
+      100% { background: radial-gradient(circle, rgba(150,100,255,0.6), rgba(255,255,255,0)); }
     }
 
     .profile-img {
       position: relative;
       z-index: 1;
-      display: block;
-      margin: 0 auto;
       width: 200px;
       height: 200px;
       border-radius: 50%;
-      border: 4px solid #b57edc;
-      box-shadow: 0 4px 10px rgba(128, 0, 128, 0.2);
+      border: 4px solid #d8b4fe;
+      box-shadow: 0 0 25px rgba(216, 180, 254, 0.6);
     }
 
-    /* 💫 Highlighted Name Below Picture with Shimmer */
+    /* 🌈 Highlighted Name */
     .highlight-name {
       margin-top: 20px;
-      font-size: 1.6em;
-      font-weight: bold;
-      background: linear-gradient(90deg, #b57edc, #a55eea, #c77dff);
+      font-size: 1.8em;
+      font-weight: 800;
+      background: linear-gradient(90deg, #c77dff, #e0aaff, #b57edc);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      position: relative;
-      display: inline-block;
-      animation: glow 3s ease-in-out infinite alternate;
+      animation: glowShift 4s ease-in-out infinite alternate;
+      text-shadow: 0 0 15px rgba(200,150,255,0.4);
     }
 
-    .highlight-name::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: -100%;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,0.8) 50%, transparent 100%);
-      animation: shimmer 4s infinite;
+    @keyframes glowShift {
+      from { filter: hue-rotate(0deg); }
+      to { filter: hue-rotate(45deg); }
     }
 
-    @keyframes glow {
-      from { text-shadow: 0 0 8px rgba(181, 126, 220, 0.4); }
-      to { text-shadow: 0 0 20px rgba(181, 126, 220, 0.8); }
+    /* 🪐 Section Styling */
+    section {
+      margin-bottom: 25px;
+      padding: 25px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(180, 120, 255, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-    @keyframes shimmer {
-      0% { left: -100%; }
-      50% { left: 100%; }
-      100% { left: 100%; }
+    section:hover {
+      transform: scale(1.01);
+      box-shadow: 0 0 25px rgba(230, 180, 255, 0.4);
     }
 
     ul {
-      list-style-type: none;
+      list-style: none;
       padding: 0;
       text-align: center;
     }
@@ -152,40 +164,47 @@
       margin: 10px 0;
     }
 
-    /* 💜 Button-Style Links */
+    /* 💫 Galaxy Buttons */
     .btn {
       display: inline-block;
-      background-color: #b57edc;
+      padding: 10px 20px;
       color: white;
-      padding: 10px 18px;
+      background: linear-gradient(90deg, #a55eea, #b57edc, #c77dff);
       border-radius: 25px;
       text-decoration: none;
       font-weight: bold;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-      box-shadow: 0 4px 10px rgba(128, 0, 128, 0.1);
+      box-shadow: 0 0 10px rgba(183, 120, 255, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .btn:hover {
-      background-color: #a55eea;
-      transform: scale(1.05);
-    }
-
-    .projects ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
+      transform: scale(1.07);
+      box-shadow: 0 0 20px rgba(220, 160, 255, 0.6);
     }
 
     footer {
       text-align: center;
-      margin-top: 30px;
-      color: #6a0dad;
+      margin-top: 40px;
+      color: #d8b4fe;
       font-weight: bold;
+      font-size: 0.9em;
+      text-shadow: 0 0 8px rgba(200,150,255,0.6);
+    }
+
+    /* 🌟 Floating Sparkles */
+    .sparkle {
+      position: absolute;
+      width: 4px;
+      height: 4px;
       background: white;
-      padding: 15px;
-      border-radius: 15px;
-      box-shadow: 0 3px 10px rgba(128, 0, 128, 0.1);
+      border-radius: 50%;
+      opacity: 0.8;
+      animation: floatSparkle 6s linear infinite;
+    }
+
+    @keyframes floatSparkle {
+      from { transform: translateY(0) scale(1); opacity: 1; }
+      to { transform: translateY(-600px) scale(0.5); opacity: 0; }
     }
   </style>
 </head>
@@ -193,48 +212,48 @@
 <body>
   <div class="container">
     <header>
-      <h1>🦋🪻7OOP Laboratory and Projects🪻🦋</h1>
-      <p class="subtitle">A collection of my activities and projects in 7OOP using Python</p>
+      <h1>🌌 7OOP Laboratory and Projects 🌌</h1>
+      <p class="subtitle">A collection of my Python activities — crafted under the stars ✨</p>
     </header>
 
     <section class="profile">
       <img src="Images/Messenger_creation_7E5C84B3-75A1-489D-89EF-6172897F9922.jpeg" alt="Joana Marie Miclat" class="profile-img">
-      <div class="highlight-name">🦋 Joana Marie Miclat 🦋</div>
+      <div class="highlight-name">Joana Marie Miclat</div>
     </section>
 
     <section class="about">
-      <h2>🫶 About Me 🫶</h2>
-      <p>Hi! I’m <strong>Joana Marie Miclat</strong>, an optimistic person who loves watching K-dramas and is very family-oriented. 
+      <h2>💜 About Me 💜</h2>
+      <p style="text-align:center;">Hi! I’m <strong>Joana Marie Miclat</strong>, an optimistic person who loves watching K-dramas and is very family-oriented. 
       My favorite food is <em>sinigang</em>, and my favorite sport is badminton. 
-      I believe that every problem has a solution and every challenge is an opportunity to grow — because of this, people often see me as someone who can uplift and encourage them.</p>
+      I believe that every challenge is a step toward growth — I love to inspire and uplift others ✨</p>
     </section>
 
     <section class="beliefs">
-      <h2>💘💞 What I Believe In 💞💘</h2>
+      <h2>💫 What I Believe In 💫</h2>
       <ul>
-        <li>🙏😇 "I believe in God as the center of my life." 😇🙏</li>
-        <li>🌀💫 "What goes around comes around." 💫🌀</li>
-        <li>🫶🫂 "Be kind to yourself." 🫂🫶</li>
+        <li>🙏 "I believe in God as the center of my life."</li>
+        <li>🌀 "What goes around comes around."</li>
+        <li>🌷 "Be kind to yourself."</li>
       </ul>
     </section>
 
     <section class="education">
-      <h2>📚🏫 Education 🏫📚</h2>
+      <h2>🎓 Education 🎓</h2>
       <ul>
-        <li>📍 Epza Resettlement Elementary School</li>
-        <li>📍 Bonifacio V. Romero High School</li>
-        <li>📍 Bonifacio V. Romero Senior High School</li>
-        <li>📍 City College of Angeles</li>
+        <li>Epza Resettlement Elementary School</li>
+        <li>Bonifacio V. Romero High School</li>
+        <li>Bonifacio V. Romero Senior High School</li>
+        <li>City College of Angeles</li>
       </ul>
     </section>
 
     <section class="languages">
-      <h2>🌸 Languages I Use 🌸</h2>
-      <p style="text-align: center;">Python, Java, C Language</p>
+      <h2>🪻 Languages I Use 🪻</h2>
+      <p style="text-align:center;">Python, Java, C Language</p>
     </section>
 
     <section class="projects">
-      <h2>📚 Project Links 📚</h2>
+      <h2>💻 Project Links 💻</h2>
 
       <h3>Midterms</h3>
       <ul>
@@ -253,19 +272,11 @@
     </section>
 
     <section class="interests">
-      <h2>🌸 Areas of Interest 🌸</h2>
+      <h2>🌟 Areas of Interest 🌟</h2>
       <ul>
         <li>C Language</li>
         <li>Java Language</li>
         <li>Python</li>
-      </ul>
-    </section>
-
-    <section class="fun-facts">
-      <h2>💗🥇 Fun Facts About Me 🥇💗</h2>
-      <ul>
-        <li>I'm patient and understanding — a girl you can count on.</li>
-        <li>Lavender is my favorite color 🌸</li>
       </ul>
     </section>
 
@@ -281,8 +292,22 @@
     </section>
 
     <footer>
-      <p>&copy; 2025 <strong>Joana Marie Miclat</strong> | All Rights Reserved</p>
+      <p>&copy; 2025 <strong>Joana Marie Miclat</strong> | Crafted in the Galaxy 💫</p>
     </footer>
   </div>
+
+  <!-- 🌠 Floating Sparkles Script -->
+  <script>
+    const sparkleCount = 25;
+    for (let i = 0; i < sparkleCount; i++) {
+      const s = document.createElement('div');
+      s.className = 'sparkle';
+      s.style.left = Math.random() * window.innerWidth + 'px';
+      s.style.bottom = Math.random() * window.innerHeight + 'px';
+      s.style.animationDelay = Math.random() * 6 + 's';
+      s.style.animationDuration = 4 + Math.random() * 4 + 's';
+      document.body.appendChild(s);
+    }
+  </script>
 </body>
 </html>
