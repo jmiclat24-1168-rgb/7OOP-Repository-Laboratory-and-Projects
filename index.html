@@ -11,7 +11,7 @@
     body {
       background-color: #f3e8ff; /* soft lavender */
       font-family: 'Roboto', sans-serif;
-      color: #5e2a84; /* purple text */
+      color: #5e2a84;
       margin: 0;
       padding: 0;
       line-height: 1.6;
@@ -65,14 +65,81 @@
       box-shadow: 0 6px 20px rgba(128, 0, 128, 0.2);
     }
 
-    /* 🌸 Profile Image */
+    /* 🌸 Profile Section */
+    .profile {
+      text-align: center;
+      position: relative;
+      padding: 40px 0;
+    }
+
+    /* ✨ Magical Halo with Color Shift */
+    .profile::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 260px;
+      height: 260px;
+      background: radial-gradient(circle, rgba(197,150,255,0.7), rgba(243,232,255,0));
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 0;
+      filter: blur(12px);
+      animation: haloColorShift 6s ease-in-out infinite alternate;
+    }
+
+    @keyframes haloColorShift {
+      0% { background: radial-gradient(circle, rgba(197,150,255,0.8), rgba(243,232,255,0)); }
+      33% { background: radial-gradient(circle, rgba(255,160,200,0.8), rgba(243,232,255,0)); }
+      66% { background: radial-gradient(circle, rgba(180,120,255,0.8), rgba(243,232,255,0)); }
+      100% { background: radial-gradient(circle, rgba(197,150,255,0.8), rgba(243,232,255,0)); }
+    }
+
     .profile-img {
+      position: relative;
+      z-index: 1;
       display: block;
       margin: 0 auto;
       width: 200px;
       height: 200px;
       border-radius: 50%;
       border: 4px solid #b57edc;
+      box-shadow: 0 4px 10px rgba(128, 0, 128, 0.2);
+    }
+
+    /* 💫 Highlighted Name Below Picture with Shimmer */
+    .highlight-name {
+      margin-top: 20px;
+      font-size: 1.6em;
+      font-weight: bold;
+      background: linear-gradient(90deg, #b57edc, #a55eea, #c77dff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      position: relative;
+      display: inline-block;
+      animation: glow 3s ease-in-out infinite alternate;
+    }
+
+    .highlight-name::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,0.8) 50%, transparent 100%);
+      animation: shimmer 4s infinite;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 8px rgba(181, 126, 220, 0.4); }
+      to { text-shadow: 0 0 20px rgba(181, 126, 220, 0.8); }
+    }
+
+    @keyframes shimmer {
+      0% { left: -100%; }
+      50% { left: 100%; }
+      100% { left: 100%; }
     }
 
     ul {
@@ -122,6 +189,7 @@
     }
   </style>
 </head>
+
 <body>
   <div class="container">
     <header>
@@ -131,6 +199,7 @@
 
     <section class="profile">
       <img src="Images/Messenger_creation_7E5C84B3-75A1-489D-89EF-6172897F9922.jpeg" alt="Joana Marie Miclat" class="profile-img">
+      <div class="highlight-name">🦋 Joana Marie Miclat 🦋</div>
     </section>
 
     <section class="about">
@@ -195,8 +264,8 @@
     <section class="fun-facts">
       <h2>💗🥇 Fun Facts About Me 🥇💗</h2>
       <ul>
-        <li>I'm patience and understanding — a girl you can count on.</li>
-        <li>Lavender is my favorite color 🪻</li>
+        <li>I'm patient and understanding — a girl you can count on.</li>
+        <li>Lavender is my favorite color 🌸</li>
       </ul>
     </section>
 
@@ -212,7 +281,7 @@
     </section>
 
     <footer>
-      <p>&copy; 2025 Joana Marie Miclat | All Rights Reserved</p>
+      <p>&copy; 2025 <strong>Joana Marie Miclat</strong> | All Rights Reserved</p>
     </footer>
   </div>
 </body>
