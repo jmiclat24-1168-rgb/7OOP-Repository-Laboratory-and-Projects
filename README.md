@@ -41,7 +41,7 @@
     <h2>D. 📚PROJECT LINKS📚</h2>
     </P> [Miterms Paired Task1:] (midterms/garcia monica,miclat joana (2).pdf) </p>
     </p> [Midterms Lab Task2:](midterms/m_task1_pdf.pdf) </p>
-    </p> [Midterms Lab Task3:](midterms/Miclat.pdf) </p>
+    </p> [Midterms Lab Task3:](midterms/lab task) </p>
     </p> [Midterms Lab Task4:](midterms/labtask.pdf) </p>
     </p> [Midterms Lab Task5:](midterms/Miclat.docx.pdf) </p>
     </p> [Finals Lab Task1:](midterms/Miclat.docx (1).pdf) </p>
