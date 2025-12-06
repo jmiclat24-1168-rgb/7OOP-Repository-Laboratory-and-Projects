@@ -44,7 +44,7 @@
     </p> [Midterms Lab Task3:](midterms/Miclat.pdf) </p>
     </p> [Midterms Lab Task4:](midterms/labtask.pdf) </p>
     </p> [Midterms Lab Task5:](midterms/Miclat.docx.pdf) </p>
-    </p> [Finals Lab Task1:](https://sg.docworkspace.com/d/sINy0kZjfAd2b4ccG?sa=601.1074) </p>
+    </p> [Finals Lab Task1:](midterms/Miclat.docx (1).pdf) </p>
   </div>
 
   <div class="section">
