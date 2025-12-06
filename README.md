@@ -40,13 +40,13 @@
   <div class="section">
     <h2>D. 📚PROJECT LINKS📚</h2>
     </P> [Miterms Paired Task1:] (midterms/garcia monica,miclat joana (2).pdf) </p>
-    </p> [Midterms Lab Task2:](midterms/m_task1_pdf.pdf) </p>
-    </p> [Midterms Lab Task3:](midterms/lab task) </p>
-    </p> [Midterms Lab Task4:](midterms/labtask.pdf) </p>
-    </p> [Midterms Lab Task5:](midterms/Miclat.docx.pdf) </p>
-    </p> [Finals Lab Task1:](midterms/Miclat.docx (1).pdf) </p>
+    </p> [Midterms Lab Task1:](midterms/m_task1_pdf.pdf) </p>
+    </p> [Midterms Lab Task2:](midterms/lab task) </p>
+    </p> [Midterms Lab Task3:](midterms/labtask.pdf) </p>
+    </p> [Midterms Lab Task4:](midterms/MidtermLabTask4.pdf) </p>
+    </p> [Midterms Lab Task5:](midterms/Miclat.docx (1).pdf) </p>
+    </p> [Finals Lab TAsk1:] (midterms/Miclat finals task 2 inheritance.docx) </p>
     </p> [Finals Lab TAsk2:] (midterms/Miclat finals task 2 inheritance.docx) </p>
-    </p> [Finals Lab TAsk3:] (midterms/Miclat finals task 2 inheritance.docx) </p>
   </div>
 
   <div class="section">
