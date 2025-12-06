@@ -46,7 +46,7 @@
     </p> [Midterms Lab Task5:](midterms/Miclat.docx.pdf) </p>
     </p> [Finals Lab Task1:](midterms/Miclat.docx (1).pdf) </p>
     </p> [Finals Lab TAsk2: (midterms/Miclat finals task 2 inheritance.docx)
-     </p> [Finals Lab TAsk2: (midterms)
+     </p> [Finals Lab TAsk2: (midterms/Miclat Finals Task 3.docx.pdf)
   </div>
 
   <div class="section">
